@@ -1,0 +1,146 @@
+﻿________________
+
+
+Food Stuff
+Abstract Class Food
+//PROPERTIES
+* string SlotLocation
+* string ProductName
+* double Price
+* string EatMessage
+//CONSTRUCTORS
+* Food(string , string , double , string )
+* Food(string)
+//METHODS
+* abstract .Eat()
+
+
+Class Beverages: Food
+//METHODS
+* override .Eat()
+
+
+Class Candy: Food
+//METHODS
+* override .Eat()
+
+
+Class Chips: Food
+//METHODS
+* override .Eat()
+
+
+Class Gum: Food
+//METHODS
+* override .Eat()
+
+
+
+
+________________
+
+
+Mechanical Classes
+CLASS VendingMachine
+//PROPERTIES
+* List<Slots> Slots - maybe change to dictionary
+* SalesReporter SalesReport
+* Current Balance
+//CONSTRUCTORS
+* .VendingMachine(string filePath
+//METHODS
+* 
+
+
+
+CLASS Slots - Maybe change to a dictionary
+//PROPERTIES
+* Food Product
+* string Location
+* int Quantity
+* ??bool isEmpty??
+//CONSTRUCTORS
+* Slots(Food, string, int)
+//METHODS
+* ???
+
+
+????CLASS ChangeMachine ????
+//PROPERTIES
+* //CONSTRUCTORS
+* //METHODS
+* dsf
+
+
+CLASS SalesReport
+//PROPERTIES
+* Dictionary<Food Product, int NumberOfSales>
+* string filePath
+//CONSTRUCTORS
+* SalesReport(string filePath)
+//METHODS
+* WriteReport()
+* WriteReport(string destinationFilePath)
+
+
+
+
+________________
+
+
+Menus
+CLASS MainMenu
+//PROPERTIES
+* VendingMachine _vendingMaching {get; private set;}
+//CONSTRUCTORS
+* MainMenu(VendingMaching vendingMaching)
+//METHODS
+* Display()
+   * Runs ListCurrentProducts()
+   * Goes to PurchaseMenu
+   * ListCurrentProducts()
+* ListCurrentProducts()
+
+
+CLASS PurchaseMenu
+//PROPERTIES
+* VendingMachine _vendingMachine {get; private set;}
+//CONSTRUCTORS
+* PurchaseMenu (VendingMachine)
+//METHODS
+* Display()
+* FeedMoney()
+* SelectProduct()
+* FinishTrasaction()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CLASS XXXXX
+//PROPERTIES
+* //CONSTRUCTORS
+* //METHODS
